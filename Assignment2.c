@@ -2,6 +2,19 @@
 
 int main() 
 {
-  
+  int num, valid=0;
+  while(1)
+  {
+    printf("Enter no: ");
+    scanf("%d", &num);
+    if(num%8==0)
+    {
+      valid++;
+      continue;
+    }
+    break;
+    
+  }
+  printf("Valid input count: %d", valid);
   return 0;
 }
