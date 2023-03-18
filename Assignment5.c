@@ -36,3 +36,4 @@ int main()
     printf("No. of failed students: %d\n", failed);
     return 0;
 }
+
