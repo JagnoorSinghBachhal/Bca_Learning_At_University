@@ -5,8 +5,7 @@
 #include <stdio.h>
 int main()
 {
-    int marks[50];
-    int n, i, max, passed=0, failed=0;
+    int marks[50], n, i, max, passed=0, failed=0;
     printf("Enter no. of students(max 50): ");
     scanf("%d", &n);
     printf("Enter the marks of the students:-\n");
