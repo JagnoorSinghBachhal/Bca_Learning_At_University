@@ -19,3 +19,4 @@ int main() {
     printf("Number of distinct elements: %d\n", count);
     return 0;
 }
+
