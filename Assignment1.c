@@ -1,5 +1,10 @@
 //Write a C program that allows the user to enter 'N' numbers and find the total positive numbers and total negative numbers using a for loop.
+/*
+Made by:-
+Jagnoor Singh Bachhal-2210997105
 
+*/
+#include<stdio.h>
 int main()
 {
   int no, i, n, pos=0, neg=0;
@@ -8,7 +13,7 @@ int main()
   for(i=0;i<no;i++){
     printf("Enter number: ");
     scanf("%d", &n);
-    if(n=>0){
+    if(n>=0){
       pos++;
     }
     else{
