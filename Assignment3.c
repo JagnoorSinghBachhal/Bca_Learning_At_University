@@ -15,3 +15,4 @@ int main() {
     printf("Binary equivalent: %d\n", bin);
     return 0;
 }
+
