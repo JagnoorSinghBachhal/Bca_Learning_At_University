@@ -18,3 +18,4 @@ int main()
   printf("Valid input count: %d", valid);
   return 0;
 }
+
